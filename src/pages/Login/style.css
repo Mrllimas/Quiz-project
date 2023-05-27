@@ -1,0 +1,115 @@
+body {
+  background: #121214;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	font-family: 'Montserrat', sans-serif;
+	height: 100vh;
+	margin: -20px 0 50px;
+}
+
+.form-container {
+  width: 500px;
+  background-color: #222;  
+  padding: 20px;
+  border-radius: 20px;
+  display: flex; 
+  flex-direction: column;
+  align-items: center;
+}
+
+.form-container input {    
+    padding: 10px;
+    margin-bottom: 10px;   
+    border-radius: 5px;
+    background-color: #333;    
+    transition: background-color 0.3s ease;
+    width: 300px;
+}
+
+
+.form-container input:focus {
+  background-color: #444;
+}
+
+.form-container button {
+  border-radius: 20px;
+	border: 1px solid #A883FF;
+	background-color: #A883FF;
+	color: #121213;
+	font-size: 12px;
+	font-weight: bold;
+	padding: 12px 45px;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	transition: transform 80ms ease-in;
+	border-color: #A883FF;
+  border-color: #121213;
+  
+}
+
+.form-container button:hover {
+  background-color: #0056b3;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #333;
+  padding: 10px;
+  text-align: center;
+  color: #fff;
+  font-size: 14px;
+}
+
+.footer:hover {
+  animation: shake 0.5s;
+}
+.loading-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.loading-spinner {
+  border: 4px solid #f3f3f3;
+  border-top: 4px solid #3498db;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  animation: spin 2s linear infinite;
+  margin-bottom: 10px;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.create-account-button {
+  border-radius: 20px;
+	border: 1px solid #A883FF;
+	background-color: #A883FF;
+	color: #121213;
+	font-size: 12px;
+	font-weight: bold;
+	padding: 12px 45px;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	transition: transform 80ms ease-in;
+	border-color: #A883FF;
+  text-decoration: none;
+  border-color: #121213;
+  
+}
+.create-account-button:hover {
+  background-color: #0056b3;
+}
